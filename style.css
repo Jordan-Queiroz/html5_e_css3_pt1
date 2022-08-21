@@ -1,0 +1,24 @@
+/* Boa prática: Deixar o arquivo com a mesma ordem da estrutura do html */
+body {
+    background: #CCCCCC;
+}
+
+#banner {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+#missao {
+    font-size: 20px;
+}
+
+em strong {
+    color: #FF0000;
+}
