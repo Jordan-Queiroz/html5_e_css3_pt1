@@ -1,24 +1,60 @@
 /* Boa prática: Deixar o arquivo com a mesma ordem da estrutura do html */
 body {
-    background: #CCCCCC;
+
 }
 
 #banner {
-    width: 100%;
+  width: 100%;
+}
+
+.principal {
+  background: #CCCCCC;
+  padding: 30px;
 }
 
 h1 {
-    text-align: center;
+  text-align: center;
 }
 
 p {
-    text-align: center;
+  text-align: center;
 }
 
 #missao {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 em strong {
-    color: #FF0000;
+  color: #FF0000;
+}
+
+.itens {
+  font-style: italic;
+}
+/* Sempre preferir usar classes do que ID. É mais robusto e reutilizável */
+.beneficios {
+  background: #FFFFFF;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+}
+
+/* Dois tipos de itens: inline, block e inline-block
+    - inline: Não ocupa toda a linha, mas as dimensões internas e externas não 
+      podem ser alteradas
+    - block: Ocupa toda a linha, as dimensões podem ser alteras, mas mesmo
+      assim, continua ocupando (bloquando) toda a linha
+    - inline-block: junção dos dois primeiros
+*/
+ul {
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  margin-right: 15%;
+}
+
+.imagembeneficios {
+    width: 50%;
 }
