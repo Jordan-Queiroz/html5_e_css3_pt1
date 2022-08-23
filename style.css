@@ -1,8 +1,4 @@
 /* Boa prática: Deixar o arquivo com a mesma ordem da estrutura do html */
-body {
-
-}
-
 #banner {
   width: 100%;
 }
@@ -12,7 +8,11 @@ body {
   padding: 30px;
 }
 
-h1 {
+.titulo-principal {
+  padding-left: 20px;
+}
+
+.titulo-centralizado {
   text-align: center;
 }
 
@@ -35,10 +35,6 @@ em strong {
 .beneficios {
   background: #FFFFFF;
   padding: 20px;
-}
-
-h2 {
-  text-align: center;
 }
 
 /* Dois tipos de itens: inline, block e inline-block
