@@ -1,5 +1,24 @@
 header {
-    background: #BBBBBB
+    background: #BBBBBB;
+    padding: 20px 0;
+}
+
+.caixa {
+    /* Para fazer o nav ficar dentro do menu */
+    position: relative;
+    width: 940px;
+    /* Para centralizar top, bottom; left e right
+       auto: calcula as margens de forma automática
+    */
+    margin: 0 auto;
+}
+
+nav {
+    /* static: lugar padrão. relative: relativo ao lugar padrão. absolute:
+    totalmente 'solto' na página */
+    position: absolute;
+    top: 110px;
+    right: 0;
 }
 
 nav li {
