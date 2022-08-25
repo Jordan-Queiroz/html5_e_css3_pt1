@@ -1,0 +1,22 @@
+header {
+    background: #BBBBBB
+}
+
+nav li {
+    display: inline;
+    /* Sentido horário: top, right, bottom, left */
+    margin: 0 0 0 15px;
+}
+
+/*
+É possível alcançar itens sem precisar passar por toda a hierarquia, por 
+exemplo nav -> ul -> li -> a. Basta nav -> a para alcançar os links da tag de 
+navegação
+*/
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
