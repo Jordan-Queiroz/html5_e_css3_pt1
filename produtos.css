@@ -1,30 +1,30 @@
 header {
-    background: #BBBBBB;
-    padding: 20px 0;
+  background: #BBBBBB;
+  padding: 20px 0;
 }
 
 .caixa {
-    /* Para fazer o nav ficar dentro do menu */
-    position: relative;
-    width: 940px;
-    /* Para centralizar top, bottom; left e right
-       auto: calcula as margens de forma automática
-    */
-    margin: 0 auto;
+  /* Para fazer o nav ficar dentro do menu */
+  position: relative;
+  width: 940px;
+  /* Para centralizar top, bottom; left e right
+      auto: calcula as margens de forma automática
+  */
+  margin: 0 auto;
 }
 
 nav {
-    /* static: lugar padrão. relative: relativo ao lugar padrão. absolute:
-    totalmente 'solto' na página */
-    position: absolute;
-    top: 110px;
-    right: 0;
+  /* static: lugar padrão. relative: relativo ao lugar padrão. absolute:
+  totalmente 'solto' na página */
+  position: absolute;
+  top: 110px;
+  right: 0;
 }
 
 nav li {
-    display: inline;
-    /* Sentido horário: top, right, bottom, left */
-    margin: 0 0 0 15px;
+  display: inline;
+  /* Sentido horário: top, right, bottom, left */
+  margin: 0 0 0 15px;
 }
 
 /*
@@ -33,37 +33,37 @@ exemplo nav -> ul -> li -> a. Basta nav -> a para alcançar os links da tag de
 navegação
 */
 nav a {
-    text-transform: uppercase;
-    color: #000000;
-    font-weight: bold;
-    font-size: 22px;
-    text-decoration: none;
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
 }
 
 .produtos {
-    width: 940px;
-    margin: 0 auto;
-    padding: 50px 0;
+  width: 940px;
+  margin: 0 auto;
+  padding: 50px 0;
 }
 
 .produtos li {
-    display: inline-block;
-    text-align: center;
-    /* ocupa 30% da página em largura, +/- 1/3 da página*/
-    width: 30%;
-    vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  /* ocupa 30% da página em largura, +/- 1/3 da página*/
+  width: 30%;
+  vertical-align: top;
 }
 
 .produtos h2 {
-    font-size: 30px;
-    font-weight: bold;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 .produto-descricao {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .produto-preco {
-    font-size: 22px;
-    font-weight: bold;
+  font-size: 22px;
+  font-weight: bold;
 }
