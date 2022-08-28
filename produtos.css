@@ -40,6 +40,15 @@ nav a {
   text-decoration: none;
 }
 
+/* 
+hover: comportamento quando o mouse está em cima do elemento. Nesse caso,
+troca a cor. afeta os links (a) do menu de navegação (nav) 
+*/
+nav a:hover {
+  color: #C78C19;
+  text-decoration: underline;
+}
+
 .produtos {
   width: 940px;
   margin: 0 auto;
@@ -58,6 +67,37 @@ forma de resolver a quebra de layout: o box-sizing */
   padding: 30px 20px;
   /* faz com que o padding fique dentro de width. Nesse caso, 30% */
   box-sizing: border-box;
+  /* A borda tem essas três configurações
+  border-color: #000000;
+  border-width: 2px;
+  border-style: solid;
+  */
+  /* declaração unificada da borda */
+  border: 2px solid #000000;
+  border-radius: 10px;
+}
+
+/* 
+mapeia o comportamente de quando o mouse está por cima do elemento
+hover e active são pseudo-classes do css
+*/
+.produtos li:hover {
+  border-color: #C78C19;
+}
+
+/* 
+active mapeia o comportamento de click no elemento, equanto o click está ativo
+*/
+.produtos li:active {
+  border-color: #088C19;
+}
+
+/*
+muda o tamanho da fonte do <h2> do <li> de .produtos, quando o mouse está em 
+cima do <li> de .produtos
+*/
+.produtos li:hover h2 {
+  font-size: 34px;
 }
 
 .produtos h2 {
