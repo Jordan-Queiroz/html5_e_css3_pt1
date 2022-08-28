@@ -46,12 +46,18 @@ nav a {
   padding: 50px 0;
 }
 
+/* Mexer com pixel (px) e percentual no dia a dia é algo normal, mas tem uma
+forma de resolver a quebra de layout: o box-sizing */
 .produtos li {
   display: inline-block;
   text-align: center;
   /* ocupa 30% da página em largura, +/- 1/3 da página*/
   width: 30%;
   vertical-align: top;
+  margin: 0 1.5%;
+  padding: 30px 20px;
+  /* faz com que o padding fique dentro de width. Nesse caso, 30% */
+  box-sizing: border-box;
 }
 
 .produtos h2 {
@@ -66,4 +72,5 @@ nav a {
 .produto-preco {
   font-size: 22px;
   font-weight: bold;
+  margin-top: 10px;
 }
