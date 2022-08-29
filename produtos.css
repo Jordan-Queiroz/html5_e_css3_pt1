@@ -8,7 +8,7 @@ header {
   position: relative;
   width: 940px;
   /* Para centralizar top, bottom; left e right
-      auto: calcula as margens de forma automática
+      auto: calcula as margens de forma automática. centraliza automaticamente
   */
   margin: 0 auto;
 }
@@ -113,4 +113,21 @@ cima do <li> de .produtos
   font-size: 22px;
   font-weight: bold;
   margin-top: 10px;
+}
+
+footer {
+  text-align: center;
+  /* 
+  É possivel usar imagem como background. Nesse caso não altera no html, 
+  mas sim no css. Nesse caso, a imagem é pequena, mas o CSS copia a mesma 
+  imagem repetidamente até preencher a área completa.
+  */
+  background: url("bg.jpg");
+  padding: 40px 0;
+}
+
+.copyright {
+  color: #FFFFFF;
+  font-size: 13px;
+  margin: 20px 0 0;
 }
