@@ -1,4 +1,34 @@
 /* Boa prática: Deixar o arquivo com a mesma ordem da estrutura do html */
+header {
+  background: #BBBBBB;
+  padding: 20px 0;
+}
+
+.caixa {
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+}
+
+nav {
+  position: absolute;
+  top: 110px;
+  right: 0px;
+}
+
+nav li {
+  display: inline;
+  margin: 0 0 0 15px
+}
+
+nav a {
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
+
 #banner {
   width: 100%;
 }
@@ -44,7 +74,7 @@ em strong {
       assim, continua ocupando (bloquando) toda a linha
     - inline-block: junção dos dois primeiros
 */
-ul {
+.lista-beneficios {
   display: inline-block;
   vertical-align: top;
   width: 20%;
