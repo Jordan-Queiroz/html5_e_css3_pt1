@@ -82,6 +82,7 @@ em strong {
 .beneficios {
   background: #FFFFFF;
   padding: 20px;
+  text-align: center;
 }
 
 /* Dois tipos de itens: inline, block e inline-block
@@ -96,6 +97,8 @@ em strong {
   vertical-align: top;
   width: 20%;
   margin-right: 15%;
+  text-align: justify;
+  list-style-type: inherit;
 }
 
 .imagembeneficios {
