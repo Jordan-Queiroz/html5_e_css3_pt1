@@ -38,7 +38,7 @@ nav a {
   width: 100%;
 }
 
-.principal {
+main {
   background: #CCCCCC;
   padding: 30px;
 }
@@ -49,14 +49,26 @@ nav a {
 
 .titulo-centralizado {
   text-align: center;
+  font-weight: bold;
+  margin: 20px 0px;
+  font-size: 1.5em;
 }
 
 p {
   text-align: center;
+  margin: 20px 0;
+}
+
+strong {
+  font-weight: bold;
 }
 
 #missao {
   font-size: 20px;
+}
+
+em {
+  font-style: italic;
 }
 
 em strong {
