@@ -16,6 +16,11 @@ nav {
   right: 0px;
 }
 
+nav a:hover {
+  color: #C78C19;
+  text-decoration: underline;
+}
+
 nav li {
   display: inline;
   margin: 0 0 0 15px
