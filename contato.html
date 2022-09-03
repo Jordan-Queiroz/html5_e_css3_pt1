@@ -44,7 +44,37 @@
         <label for="telefone">Telefone</label>
         <input type="text" id="telefone">
 
-        <input type="submit" value="Enviar fomulário">
+        <label for="mensagem">Mensagem</label>
+        <textarea cols="70" rows="10" id="mensagem"></textarea>
+
+        <!-- 
+          Essa div é por questão organização.
+          Ela representa o grupo de radio 
+        -->
+        <div>
+          <p>Como prefere o nosso contato?</p>
+          <!-- 
+            A propriedade 'name' faz com que os radios façam parte do mesmo 
+            grupo e, dessa forma, permitindo apenas selecionar um valor por vez.
+          -->
+          <label for="radio-email">Email</label>
+          <input type="radio" name="contato" value="email" id="radio-email">
+
+          <label for="radio-telefone">Telefone</label>
+          <input type="radio" name="contato" value="telefone" id="radio-telefone">
+
+          <label for="radio-whatsapp">Whatsapp</label>
+          <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">
+        </div>
+
+        <!-- 
+          Em vez de usar um 'id' para o input e um 'for' para o label, o label
+          e o input podem ser linkados dessa forma
+        -->
+        <label><input type="checkbox">Gostaria de receber nossas novidades por email?</label>
+
+        <input type="submit" name="contato" value="Enviar fomulário">
+
       </form>
     </main>
 
