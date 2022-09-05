@@ -36,16 +36,16 @@
           Uma label é 'for' algum input identificado por um 'id'
         -->
         <label for="nomesobrenome">Nome e sobrenome</label>
-        <input type="text" id="nomesobrenome">
+        <input type="text" id="nomesobrenome" class="input-padrao">
 
         <label for="email">Email</label>
-        <input type="text" id="email">
+        <input type="text" id="email" class="input-padrao">
 
         <label for="telefone">Telefone</label>
-        <input type="text" id="telefone">
+        <input type="text" id="telefone" class="input-padrao">
 
         <label for="mensagem">Mensagem</label>
-        <textarea cols="70" rows="10" id="mensagem"></textarea>
+        <textarea cols="70" rows="10" id="mensagem" class="input-padrao"></textarea>
 
         <!-- 
           Essa div é por questão organização.
@@ -57,21 +57,19 @@
             A propriedade 'name' faz com que os radios façam parte do mesmo 
             grupo e, dessa forma, permitindo apenas selecionar um valor por vez.
           -->
-          <label for="radio-email">Email</label>
-          <input type="radio" name="contato" value="email" id="radio-email">
-
-          <label for="radio-telefone">Telefone</label>
-          <input type="radio" name="contato" value="telefone" id="radio-telefone">
-
-          <label for="radio-whatsapp">Whatsapp</label>
-          <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">
+          <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+          
+          <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+          
+          <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">Whatsapp</label>
+          
         </div>
 
         <!-- 
           Em vez de usar um 'id' para o input e um 'for' para o label, o label
           e o input podem ser linkados dessa forma
         -->
-        <label><input type="checkbox">Gostaria de receber nossas novidades por email?</label>
+        <label class="checkbox"><input type="checkbox">Gostaria de receber nossas novidades por email?</label>
 
         <input type="submit" name="contato" value="Enviar fomulário">
 
