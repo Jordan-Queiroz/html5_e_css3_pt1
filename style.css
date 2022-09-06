@@ -1,6 +1,20 @@
 /* Sempre que temos um arquivo CSS principal e que é usado em várias páginas,
 chamamos esse aquivo de style.css. Essa é uma boa prática
 */
+
+/* 
+Ordem prioridade (força) do CSS:
+ - tag: força 1
+ - class: força 10
+ - id: força 100
+ - inline (no html): força 1000
+ tag = 1
+ p {...}
+ tag + tag = 2
+ form p {...}  <-- Essa vai ter prioridade sobre 'p {...}'. Essa vai dar 
+                   overwrite
+
+*/
 header {
   background: #BBBBBB;
   padding: 20px 0;
