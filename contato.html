@@ -36,16 +36,19 @@
           Uma label é 'for' algum input identificado por um 'id'
         -->
         <label for="nomesobrenome">Nome e sobrenome</label>
-        <input type="text" id="nomesobrenome" class="input-padrao">
+        <input type="text" id="nomesobrenome" class="input-padrao" required>
 
         <label for="email">Email</label>
-        <input type="text" id="email" class="input-padrao">
+        <input type="email" id="email" class="input-padrao" required 
+          placeholder="seuemail@dominio.com">
 
         <label for="telefone">Telefone</label>
-        <input type="text" id="telefone" class="input-padrao">
+        <input type="tel" id="telefone" class="input-padrao" required
+          placeholder="(XX) XXXXX-XXXX">
 
         <label for="mensagem">Mensagem</label>
-        <textarea cols="70" rows="10" id="mensagem" class="input-padrao"></textarea>
+        <textarea cols="70" rows="10" id="mensagem" class="input-padrao" 
+          required></textarea>
 
         <!-- 
           Essa div é por questão organização.
@@ -61,7 +64,8 @@
           
           <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
           
-          <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">Whatsapp</label>
+          <label for="radio-whatsapp"><input type="radio" name="contato" 
+            value="whatsapp" id="radio-whatsapp" checked>Whatsapp</label>
           
         </div>
 
@@ -78,7 +82,8 @@
           Em vez de usar um 'id' para o input e um 'for' para o label, o label
           e o input podem ser linkados dessa forma
         -->
-        <label class="checkbox"><input type="checkbox">Gostaria de receber nossas novidades por email?</label>
+        <label class="checkbox"><input type="checkbox" checked>
+          Gostaria de receber nossas novidades por email?</label>
 
         <input type="submit" name="contato" value="Enviar fomulário">
 
