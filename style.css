@@ -186,11 +186,15 @@ separar os seletores por ',' */
   font-size: 18px;
   border: none;
   border-radius: 5px;
-  /* Muda a cor de fundo gradualmente quando tem evento de hover */
-  transition: 1s background;
+  /* old: Muda a cor de fundo gradualmente quando tem evento de hover */
+  /* new: A transição de tudo acontece gradualmente quando tem evento de 
+          hover */
+  transition: 1s all;
   cursor: pointer;
 }
 
 .enviar:hover {
   background: darkorange;
+  /* Aumenta todo o elemento proporcionalmente em 20%  */
+  transform: scale(1.20);
 }
