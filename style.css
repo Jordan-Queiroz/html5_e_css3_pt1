@@ -1,3 +1,11 @@
+body {
+  /*  
+    Depois de baixar a font da web, tem que setar a página para usar a fonte, 
+    da forma abaixo 
+  */
+  font-family: 'Montserrat', sans-serif; 
+}
+
 /* Sempre que temos um arquivo CSS principal e que é usado em várias páginas,
 chamamos esse aquivo de style.css. Essa é uma boa prática
 */
@@ -227,6 +235,8 @@ td, th {
   */
   font-size: 2em;
   margin: 0 0 1em;
+  /* "limpa" o efeito do float */
+  clear: left;
 }
 
 .principal p {
@@ -239,6 +249,16 @@ td, th {
 
 .principal em {
   font-style: italic;
+}
+
+.utensilios {
+  width: 120px;
+  /* 
+    Faz a imagem "flutuar", deixando os textos ao redor da imagem.
+    O float afeta tudo na página que vem abaixo dele mesmo. O clear resolve isso
+  */
+  float: left;
+  margin: 0 20px 20px 0;
 }
 
 .imagembeneficios {
