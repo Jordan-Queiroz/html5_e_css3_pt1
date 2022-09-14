@@ -1,7 +1,8 @@
 body {
   /*  
     Depois de baixar a font da web, tem que setar a página para usar a fonte, 
-    da forma abaixo 
+    da forma abaixo. Setando no 'body', a fonte é aplicada em cascada para toda
+    a página
   */
   font-family: 'Montserrat', sans-serif; 
 }
