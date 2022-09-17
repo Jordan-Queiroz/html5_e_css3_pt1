@@ -237,6 +237,8 @@ td, th {
   margin: 0 0 1em;
   /* "limpa" o efeito do float */
   clear: left;
+  /* Sombra em texto */
+  /* text-shadow: 2px 2px #FF0000; */
 }
 
 .principal {
@@ -323,6 +325,22 @@ td, th {
 
 .imagem-beneficios {
   width: 60%;
+  /* 1 -> visível. 0 -> invisível */
+  opacity: 1;
+  transition: 400ms;
+  /* 
+    Adiciona sombra em elementos
+    X, Y, Blur, Intensidade da borda, Cor
+
+    Várias sombras podem ser adicionadas no mesmo elemento. Basta separá-las
+    por vírgula
+  */
+  box-shadow: 10px 10px 10px 0 #000000;
+}
+
+/* É possível usar opacidade em vários eventos, por exemplo, em hover */
+.imagem-beneficios:hover {
+  opacity: 0.3;
 }
 
 .video {
