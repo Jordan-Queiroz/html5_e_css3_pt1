@@ -158,10 +158,6 @@ footer {
   margin: 20px 0 0;
 }
 
-main {
-  
-}
-
 form {
   margin: 40px 0;
 }
@@ -373,3 +369,27 @@ Seleciona todos os parágrafos de principal que não tem o id 'missao'
   background: orange;
 }
  */
+
+
+/*
+  Media Queries
+  Aplica um estilo para telas com largura de até 480px
+  Usado para adaptar páginas para celular
+*/
+@media screen and (max-width: 480px) {
+  .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+    width: auto;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  nav {
+    position: static;
+  }
+
+  .lista-beneficios, .imagem-beneficios {
+    width: 100%;
+  }
+}
