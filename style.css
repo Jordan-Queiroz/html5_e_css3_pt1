@@ -401,4 +401,26 @@ Seleciona todos os parágrafos de principal que não tem o id 'missao'
     width: auto;
     margin: 0 1.5% 50px;
   }
+
+  .input-padrao {
+    margin: 10px auto;
+    width: 300px;
+  }
+
+  fieldset select {
+    padding: 15px 50px;
+    margin: 10px 10px;
+    width: 352px;
+    text-align: center;
+  }
+
+  .enviar {
+    margin: 10px 10px;
+    width: 352px;
+  }
+
+  table {
+    width: 352px;
+    margin: 10px 10px;
+  }
 }
